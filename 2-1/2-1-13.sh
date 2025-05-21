@@ -1,4 +1,5 @@
 #!/bin/bash
+#正方形
 
 for ((x=8; x>0; x--))
 do
