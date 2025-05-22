@@ -9,5 +9,5 @@ user_email["alice"]="alice@example.com"
 user_email["bob"]="bob@example.com"
 
 for name in "${!user_email[@]}"; do
-  echo "$name 的信箱是 ${user_email[$name]}"
+  echo "$name's email is ${user_email[$name]}"
 done
