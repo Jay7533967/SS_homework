@@ -1,7 +1,9 @@
 #!/bin/bash
-#九九乘法表
+#九九乘法表(while+for)
 
-for ((x=1; x < 10; x++))
+x=1
+
+while [ $x -le 9 ]
 do
     for ((y=1; y < 10; y++))
     do
@@ -9,4 +11,5 @@ do
         echo -n -e "$y x $x = $calc\t"  
     done
     echo ""
+    (( x++ ))
 done
